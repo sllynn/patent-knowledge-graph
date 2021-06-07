@@ -134,7 +134,8 @@ entities_sdf.count()
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC # //TODO Delta merge and CDF to graph DB
+# MAGIC # Merge against latest view of graph triplets
+# MAGIC - We will use the change data feed to work out what needs to be updated in the graph DB
 
 # COMMAND ----------
 
